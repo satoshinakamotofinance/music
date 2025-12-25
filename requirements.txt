@@ -260,7 +260,6 @@ torch==2.9.1
 tornado==6.5.2
 tqdm==4.67.1
 traitlets==5.14.3
-transformers==4.57.1
 translator==0.0.9
 trio==0.30.0
 trio-websocket==0.12.2
