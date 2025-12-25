@@ -1,6 +1,8 @@
 import random
 import requests
 import streamlit as st
+from streamlit_extras.switch_page_button import switch_page  # Optional for multi-page
+import time
 
 # Custom CSS for modern radio UI
 st.markdown("""
@@ -215,7 +217,6 @@ else:
 
 # ---------- Enhanced sidebar ----------
 with st.sidebar:
-    st.markdown("Developed with ❤️ for music lovers & travellers by CA. Ankit Kotriwala")
     st.markdown("### 🎛️ Quick Controls")
 
     # Load filter data
