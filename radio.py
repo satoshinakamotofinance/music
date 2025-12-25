@@ -62,6 +62,13 @@ st.markdown("""
 
 st.set_page_config(
     page_title="🌐 World Radio Hub",
+    st.markdown("""
+        <div style='text-align: center; padding: 1rem; font-size: 1.1rem; 
+             color: #e0e0e0; background: rgba(15,15,35,0.8); 
+             border-radius: 15px; margin-top: 2rem;'>
+            Developed with ❤️ for the music community by <strong>CA. Ankit Kotriwala</strong>
+        </div>
+        """, unsafe_allow_html=True),
     layout="wide",
     page_icon="🎵",
     initial_sidebar_state="expanded"
